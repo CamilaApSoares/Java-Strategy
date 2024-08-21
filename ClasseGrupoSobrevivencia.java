@@ -44,7 +44,7 @@ public class grupoSobrevivente {
 			return estrategia;
 		}
 		
-		public void sobreviver(Grupo inimigo){
+		public void sobreviver(grupoSobrevivente inimigo){
 			this.estrategia.enfrentarPerigo(inimigo);
 			this.estrategia.finalizar(inimigo);
 		}
