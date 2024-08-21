@@ -1,4 +1,6 @@
+package teste;
+
 public interface EstrategiaSobrevivencia {
-	public void enfrentarPerigo(Grupo Inimigo);
-	public void finalizar(Grupo Inimigo);
+	public void enfrentarPerigo(grupoSobrevivente Inimigo);
+	public void finalizar(grupoSobrevivente Inimigo);
 }
